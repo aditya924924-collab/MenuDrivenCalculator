@@ -1,0 +1,44 @@
+MENU-DRIVEN CALCULATOR - TEST CASES
+Name: Aditya Singh | ERP ID: RU-26-02606 | PS No. 7
+
+Run the program with:  py one.py   (or python one.py)
+Type the inputs below one by one, pressing Enter after each.
+
+------------------------------------------------------------
+TEST CASE 1 : NORMAL INPUT
+------------------------------------------------------------
+Input    : choice 1 (Add) -> first number 12 -> second number 8
+Expected : Result: 12 + 8 = 20.00
+Then     : choice 7 to exit
+
+------------------------------------------------------------
+TEST CASE 2 : BOUNDARY / MINIMUM INPUT
+------------------------------------------------------------
+Input    : choice 4 (Divide) -> first number 0 -> second number 5   (zero numerator)
+Expected : Result: 0 / 5 = 0.00
+Then     : choice 7 to exit
+
+------------------------------------------------------------
+TEST CASE 3 : INVALID INPUT
+------------------------------------------------------------
+(a) Input    : choice 4 (Divide) -> 10 -> 0
+    Expected : Error: Division by zero is not allowed.
+(b) Input    : choice 3 (Multiply) -> abc -> 4
+    Expected : Error: Invalid number. Enter numeric values only.
+(c) Input    : choice 9
+    Expected : Invalid choice. Select 1 to 7.
+Then     : choice 7 to exit
+
+------------------------------------------------------------
+TEST CASE 4 : DIFFERENT VALID SCENARIO
+------------------------------------------------------------
+(a) Input    : choice 5 (Power) -> 2 -> 10
+    Expected : Result: 2 ^ 10 = 1024.00
+(b) Input    : choice 6 (Modulus) -> 17 -> 5
+    Expected : Result: 17 % 5 = 2.00
+(c) Input    : choice 2 (Subtract) -> 5 -> 9.5
+    Expected : Result: 5 - 9.5 = -4.50
+(d) Input    : choice 7 (Exit)
+    Expected : Thank you for using the calculator. Exiting...
+
+RESULT: All 4 test cases passed.
