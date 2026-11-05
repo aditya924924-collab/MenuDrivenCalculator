@@ -114,3 +114,8 @@ Screenshots of input and output for every test case are in `Test_Case_Screenshot
 ## Conclusion
 
 The calculator performs all six arithmetic operations correctly, keeps running until the user exits, and handles invalid input safely. All four given test cases produce the expected output.
+Mentored by: Mr. Satyaprakash Sethy
+
+GitHub: @SATYAPRAKASHSETHY
+
+ike thigion Mentor/ Technical Guide"
